@@ -12,6 +12,8 @@
 		4ADE29E01EFA0A49001284EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE29DE1EFA0A49001284EE /* Main.storyboard */; };
 		4ADE29E21EFA0A49001284EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE29E11EFA0A49001284EE /* Assets.xcassets */; };
 		4ADE29E51EFA0A49001284EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE29E31EFA0A49001284EE /* LaunchScreen.storyboard */; };
+		4ADE29EF1EFA1830001284EE /* switch off.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE29ED1EFA1830001284EE /* switch off.png */; };
+		4ADE29F01EFA1830001284EE /* switchon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE29EE1EFA1830001284EE /* switchon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4ADE29E11EFA0A49001284EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ADE29E41EFA0A49001284EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ADE29E61EFA0A49001284EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADE29ED1EFA1830001284EE /* switch off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch off.png"; sourceTree = "<group>"; };
+		4ADE29EE1EFA1830001284EE /* switchon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		4ADE29D91EFA0A49001284EE /* MyApp06 0621 */ = {
 			isa = PBXGroup;
 			children = (
+				4ADE29EC1EFA17FC001284EE /* imgs */,
 				4ADE29DA1EFA0A49001284EE /* AppDelegate.swift */,
 				4ADE29DC1EFA0A49001284EE /* ViewController.swift */,
 				4ADE29DE1EFA0A49001284EE /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				4ADE29E61EFA0A49001284EE /* Info.plist */,
 			);
 			path = "MyApp06 0621";
+			sourceTree = "<group>";
+		};
+		4ADE29EC1EFA17FC001284EE /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				4ADE29ED1EFA1830001284EE /* switch off.png */,
+				4ADE29EE1EFA1830001284EE /* switchon.png */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,8 @@
 			files = (
 				4ADE29E51EFA0A49001284EE /* LaunchScreen.storyboard in Resources */,
 				4ADE29E21EFA0A49001284EE /* Assets.xcassets in Resources */,
+				4ADE29EF1EFA1830001284EE /* switch off.png in Resources */,
+				4ADE29F01EFA1830001284EE /* switchon.png in Resources */,
 				4ADE29E01EFA0A49001284EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
